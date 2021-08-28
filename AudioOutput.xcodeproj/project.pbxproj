@@ -14,6 +14,7 @@
 		151A2AEC26D9863A00E09EE7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 151A2AEB26D9863A00E09EE7 /* main.m */; };
 		151A2AF626D9863A00E09EE7 /* AudioOutputTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 151A2AF526D9863A00E09EE7 /* AudioOutputTests.m */; };
 		151A2B0026D9863A00E09EE7 /* AudioOutputUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 151A2AFF26D9863A00E09EE7 /* AudioOutputUITests.m */; };
+		151A2B0F26D9899700E09EE7 /* NSSound+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 151A2B0E26D9899700E09EE7 /* NSSound+Extensions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,8 @@
 		151A2AF526D9863A00E09EE7 /* AudioOutputTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioOutputTests.m; sourceTree = "<group>"; };
 		151A2AFB26D9863A00E09EE7 /* AudioOutputUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudioOutputUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		151A2AFF26D9863A00E09EE7 /* AudioOutputUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioOutputUITests.m; sourceTree = "<group>"; };
+		151A2B0E26D9899700E09EE7 /* NSSound+Extensions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSSound+Extensions.m"; sourceTree = "<group>"; };
+		151A2B1026D9925200E09EE7 /* NSSound+Extensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSSound+Extensions.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +106,8 @@
 				151A2AE626D9863A00E09EE7 /* Assets.xcassets */,
 				151A2AE826D9863A00E09EE7 /* Main.storyboard */,
 				151A2AEB26D9863A00E09EE7 /* main.m */,
+				151A2B0E26D9899700E09EE7 /* NSSound+Extensions.m */,
+				151A2B1026D9925200E09EE7 /* NSSound+Extensions.h */,
 			);
 			path = AudioOutput;
 			sourceTree = "<group>";
@@ -252,6 +257,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				151A2B0F26D9899700E09EE7 /* NSSound+Extensions.m in Sources */,
 				151A2AE526D9863900E09EE7 /* ViewController.m in Sources */,
 				151A2AEC26D9863A00E09EE7 /* main.m in Sources */,
 				151A2AE226D9863900E09EE7 /* AppDelegate.m in Sources */,
